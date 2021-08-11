@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-size: 1.1rem; */
+}
+body{
+     background: rgb(243, 242, 242);
+}
+nav {
+     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+      background: white;
+}
+.navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.45rem;
+    font-family: sans-serif;
+   
+   
+}
+.head{
+    margin-left: 30px;
+    text-shadow: 0 1px 3px;
+    padding: 1rem;
+}
+.cont {
+    margin-top: 20px;
+    display: flex;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+.cont a:hover{
+    color: blue;
+}
+
+.cont a{
+    color: rgb(133, 137, 139);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.links {
+    margin-top: 20px;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+
+}
+
+.code{
+    color: rgb(99, 180, 247);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#nav-below{
+    margin-top: 80px;
+    width: 50%;
+    height: 600px;
+}
+.dave{
+    margin-left: 30px;
+    text-shadow: 0 1px 3px;
+    padding: 1rem;
+    
+}
+.conts{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: grid;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.45rem;
+    font-weight: 600; 
+    grid-gap: 50px; 
+    
+}
+
+.link{
+    margin-top: 150px;
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin-left: 60px;
+    padding-bottom: 2rem;
+}
+.conts a:hover{
+    background-color: rgb(0, 183, 255);
+    display: block;
+    height: 50px;  
+}
+.sidebar{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: fixed;
+    font-size: 3rem;
+    background: transparent;
+    border-color: transparent;
+    color: rgb(0, 174, 255);
+    cursor: pointer;
+}
